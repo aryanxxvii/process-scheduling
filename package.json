@@ -1,0 +1,23 @@
+{
+  "name": "process-scheduling",
+  "version": "1.0.0",
+  "description": "An npm package to calculate turn-around time and waiting time for common CPU scheduling algorithms",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryanxxvii/process-scheduling.git"
+  },
+  "keywords": [
+    "process-scheduling"
+  ],
+  "author": "Aryan Wadhawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aryanxxvii/process-scheduling/issues"
+  },
+  "homepage": "https://github.com/aryanxxvii/process-scheduling#readme"
+}
