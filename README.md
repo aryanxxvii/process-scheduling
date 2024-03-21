@@ -1,5 +1,16 @@
 # process-scheduling
 An npm package to calculate turn-around time and waiting time for common CPU scheduling algorithms
+
+```js
+import {
+  calculateFCFS,
+  calculatePriorityNonPreemptive,
+  calculateRoundRobin,
+  calculatePriorityPreemptive,
+  calculateShortestJobFirst,
+} from "process-scheduling"
+```
+
 ```js
 const arrivalTime = [0, 1, 2]
 const burstTime = [4, 3, 5]
