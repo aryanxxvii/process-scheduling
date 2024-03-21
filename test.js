@@ -17,11 +17,11 @@ try {
   const pnp = calculatePriorityNonPreemptive(arrivalTime, burstTime, priority)
   const pp = calculatePriorityPreemptive(arrivalTime, burstTime, priority)
   const sjf = calculateShortestJobFirst(arrivalTime, burstTime)
-  console.table(fcfs) // Display the schedule table
-  console.table(rr) // Display the schedule table
-  console.table(pnp) // Display the schedule table
-  console.table(pp) // Display the schedule table
-  console.table(sjf) // Display the schedule table
+  console.table(fcfs)
+  console.table(rr)
+  console.table(pnp)
+  console.table(pp)
+  console.table(sjf)
 } catch (error) {
   console.error(error.message)
 }
